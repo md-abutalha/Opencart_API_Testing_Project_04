@@ -1,4 +1,5 @@
-# Opencart API Testing Project_P04
+
+# Opencart API Testing Project
 
 I locally set up OpenCart and conducted API testing on essential cart functions, including adding products, viewing cart content, editing quantities, and removing items. These tests validated the API's efficiency in handling cart operations, ensuring a reliable user experience. The results were documented and reported using a Newman HTML report.
 
@@ -22,7 +23,7 @@ https://www.opencart.com/index.php?route=cms/download
 Click on previous releases
 Recommended version: opencart-3.0.3.8
 
-2) XAMPP for apache, mysql, and php installation. 
+2) XAMPP for Apache, mysql, and php installation. 
 Download Link: https://www.apachefriends.org/download.html
 Recommended version: 7.4.29/PHP 7.4.29
 
@@ -81,6 +82,9 @@ DB Access URL: http://localhost/phpmyadmin/
 - Backend Application url: http://localhost/opencart/upload/admin/
 
 
+## In The Collection Variable set
+
+![App Screenshot](https://raw.githubusercontent.com/md-abutalha/Opencart_API_Testing_Project_04/master/opencart_screenchots/module_variable.png)
 
 ## Create Session/Token In Postman Request 
 
@@ -186,7 +190,7 @@ pm.environment.set("cart_id_key",jsonData.products[0].cart_id);
 
 ```
 
-## cart Content Body
+## Cart Content Body
 
 ![App Screenshot](https://raw.githubusercontent.com/md-abutalha/Opencart_API_Testing_Project_04/master/opencart_screenchots/cart_content-3/cart_content_body-1.png)
 
